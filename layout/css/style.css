@@ -67,9 +67,23 @@ body a, body p{
 nav a{
 	font-weight: 700;
 	letter-spacing: -0.02em;
-
+	color: #494949;
 }
 
-nav > a{
+nav li > a{
 	font-weight: 800;
+	color: #494949;
+}
+
+div.round{
+	border-radius: 50%;
+	width: 13px;
+	height: 13px;
+	background-color: #E85E56;
+	margin-right: 10px;
+}
+
+/*----------------------- fl 1 -----------------------*/
+main .img{
+	width: 80%;
 }
